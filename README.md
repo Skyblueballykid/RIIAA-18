@@ -1,6 +1,9 @@
 # RIIAA Escuela18
 
+Repo for the 2018 International Artificial Intelligence meeting at UNAM
+
 Repo para la escuela de verano de la RIIAA 2018
+(Reunion Internacional de Inteligencia Artificial y sus Aplicaciones)
 
 <p align="center">
 <img src="extra/poster_web_escuela.png">
