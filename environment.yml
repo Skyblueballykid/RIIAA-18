@@ -1,0 +1,25 @@
+name: riiaa18
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python>=3.6
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - tqdm
+  - scikit-learn
+  - jupyter
+  - tensorflow>=1.9.0
+  - tensorboard
+  - tensorflow-hub
+  - keras
+  #- pytorch-cpu
+  #- torchvision-cpu
+  - Graphviz
+  - pip:
+          - livelossplot
+          - pydot

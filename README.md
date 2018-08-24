@@ -1,3 +1,58 @@
-# RIIAA-18
+# RIIAA Escuela18
 
-Notes and notebooks from "Escuela de Verano" at the 2018 AI conference at UNAM
+Repo para la escuela de verano de la RIIAA 2018
+
+<p align="center">
+<img src="extra/poster_web_escuela.png">
+</p>
+
+## Cuando?
+Viernes 24 de agosto de 2018
+9:00 – 18:00 hora de verano central hora de México (CDMX)
+Registro 8:30am.
+
+## Donde?
+
+
+>Auditorio del Centro de Ciencias de la Complejidad
+Circuito Mario de la Cueva 20
+Insurgentes Cuicuilco
+Ciudad de México
+
+[Link a google maps](https://goo.gl/maps/roAyrxmUcMF2)
+
+## Requisitos
+
+
+1. Laptop con Mozilla Firefox o Google Chrome.
+2. [Python 3.6 (anaconda)](https://www.anaconda.com/download/)
+3. El github repo cloneado en algun lugar de tu computadora. (`git clone https:\\github`)
+4. Un ambiente python con varios paquetes instalados. Estos paquetes estas descritos dentro de `requirements.txt` o `environment.yml`.
+
+Hosteareamos el curso en un [google colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb#recent=true). Con google colaboratory no necesitas los requerimientos (2,3,4), solo requires una laptop con un web browser.
+En google collaboratory puedes correr codigos
+
+
+
+### Con Anaconda: Crear un conda environment
+
+Desde una terminal, estando en la carpeta donde se encuentra **environment.yml**, corres el comando:
+```
+conda env create -f environment.yml
+```
+
+### Con pip
+Desde una terminal, estando en la carpeta donde se encuentra **requirements.txt**, corres el comando:
+```
+pip install -r requirements.txt
+```
+
+### Con Docker
+Puedes construir una imagen docker, es decir un ambiente virtual via el siguiente comando
+```
+docker build -t "riiaa18" .
+```
+y luego para correr el ambiente docker en la carpeta favorita de tu eleccion usas el comando
+```
+docker run -it --rm -p 8890:8888 -v $(pwd):/home/jovyan/work  riiaa18
+```
