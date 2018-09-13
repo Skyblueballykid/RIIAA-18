@@ -8,3 +8,5 @@ My final submission consisted of:
 - ELU activation
 - Batch size of 28
 - Adam optimizer (outperformed Powersign for this configuration)
+
+The model accuracy consistently topped out at around 170 epochs of training time. 
