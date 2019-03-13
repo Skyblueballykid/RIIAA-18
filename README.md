@@ -10,3 +10,5 @@ My final submission consisted of:
 - Adam optimizer (outperformed Powersign for this configuration)
 
 The model accuracy consistently topped out at around 170 epochs of training time. 
+
+# The IAmigos_RIIAA_Reto_Machine_Learning.ipynb file was the winning submission from another team. This model used Sklearn's GBClassifier. 
